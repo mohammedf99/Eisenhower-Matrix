@@ -40,7 +40,7 @@
                     </ul>
                 </div>
                 <div class="box red-box">
-                    <ul id="red-box">
+                    <ul id="red-ul">
 
                     </ul>
                 </div>
@@ -48,18 +48,18 @@
         </div>
         <div class="form-wrapper">
             <h4>Add new task</h4>
-            <form action="">
+            <form action="" class="task-form">
                 <input type="text" name="newTask" id="newTask" placeholder="Add task">
                 <select name="taskPriority" id="taskPriority">
-                    <option disabled selected>Select priority</option>
+                    <option selected value="">Select priority</option>
                     <option value="IU">Important/Urgent</option>
                     <option value="INU">Important/Not urgent</option>
                     <option value="NIU">Not Iportant/Urgent</option>
                     <option value="NINU">Not important/Not urgent</option>
                 </select>
-                <button type="submit">Add task</button>
+                <button type="submit" class="btn">Add task</button>
             </form>
-            <p id="successful-tast-p"></p>
+            <p id="msg"></p>
         </div>
     </div>
     <footer>
