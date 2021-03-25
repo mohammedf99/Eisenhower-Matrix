@@ -4,7 +4,6 @@
 }
 
 body {
-  display: flex;
   margin: 0;
   padding: 0;
 }
@@ -18,4 +17,20 @@ header {
   background-color: #e5e5e5;
   color: #14213d;
   font-size: 1.5rem;
+}
+
+.green-box {
+  background-color: #90be6d;
+}
+
+.blue-box {
+  background-color: #1e6091;
+}
+
+.orange-box {
+  background-color: #f77f00;
+}
+
+.red-box {
+  background-color: #d62828;
 }
