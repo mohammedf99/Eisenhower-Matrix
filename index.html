@@ -13,10 +13,62 @@
     <header>
         <h1>Eisenhower Matrix</h1>
     </header>
+    <div class="main-section">
+        <div class="vertical-text-wrapper">
+            <h4>important</h4>
+            <h4>not important</h4>
+        </div>
+        <div class="matrix-wrapper">
+            <div class="horizontal-text-wrapper">
+                <h4>urgent</h4>
+                <h4>not urgent</h4>
+            </div>
+            <div class="upper-section">
+                <div class="box green-box">
+                    <ul id="green-ul"></ul>
+                </div>
+                <div class="box blue-box">
+                    <ul id="blue-ul">
 
+                    </ul>
+                </div>
+            </div>
+            <div class="lower-section">
+                <div class="box orange-box">
+                    <ul id="orange-ul">
+
+                    </ul>
+                </div>
+                <div class="box red-box">
+                    <ul id="red-box">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="form-wrapper">
+            <h4>Add new task</h4>
+            <form action="">
+                <input type="text" name="newTask" id="newTask" placeholder="Add task">
+                <select name="taskPriority" id="taskPriority">
+                    <option disabled selected>Select priority</option>
+                    <option value="IU">Important/Urgent</option>
+                    <option value="INU">Important/Not urgent</option>
+                    <option value="NIU">Not Iportant/Urgent</option>
+                    <option value="NINU">Not important/Not urgent</option>
+                </select>
+                <button type="submit">Add task</button>
+            </form>
+            <p id="successful-tast-p"></p>
+        </div>
+    </div>
     <footer>
 
     </footer>
+
+    <script src="main.js">
+
+    </script>
 </body>
 
 </html>
