@@ -17,3 +17,8 @@ How to create functions in JavaScript.
 How to switch between CSS classes using JavaScript.
 How to create new elements and display them in each
 How to show warning/sucess message after clicking on the submit button.
+
+
+******************************************************
+****PLEASE CHECK THE MASTER BRANCH TO SEE THE CODE****
+******************************************************
