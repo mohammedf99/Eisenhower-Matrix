@@ -13,7 +13,10 @@ taskForm.addEventListener("submit", addTask);
 function errorMsg() {
   msg.classList.add("error");
   msg.innerHTML = "Please fill in both inputs";
-  setTimeout(() => msg.remove(), 3000);
+  setTimeout(() => {
+    msg.innerText = "";
+    msg.classList.remove("error");
+  }, 3000);
 }
 
 function successMsg() {
